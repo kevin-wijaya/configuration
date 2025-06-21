@@ -1,0 +1,47 @@
+# ========================================
+# Gitignore for LaTeX project (VSCode)
+# ========================================
+
+.vscode/
+build/
+clean.sh
+
+# ========================================
+# Latex generated file
+# ========================================
+
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# ========================================
+# Code editor generated file
+# ========================================
+
+*~
+*.bak
+*.swp
+*.swo
+
+# ========================================
+# File system
+# ========================================
+
+.DS_Store
+Thumbs.db

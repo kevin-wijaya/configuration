@@ -20,6 +20,6 @@ if [[ "$1" == "--setup" ]]; then
     year=$(date +%Y)
     sed -i '3d' LICENSE 2>/dev/null || true
     sed -i "3i Copyright (c) $year John Doe" LICENSE
-    mv temp.gitignore .gitignore
+    mv ignore .gitignore
     echo "Setup Complete ~"
 fi

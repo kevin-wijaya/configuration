@@ -3,6 +3,13 @@
 
 ![latex-in-linux](./images.svg)
 
+## Description
+
+This project template was created to streamline the process of writing academic papers using LaTeX. I moved away from Overleaf because, although it's convenient, it's web-based, often lags, and restricts collaboration to only two members on the free plan. 
+
+By switching to a local setup using `latexmk` and `texlive`, along with Visual Studio Code and the LaTeX Workshop extension, the writing experience becomes significantly faster, smoother, and more flexible. This setup also supports real-time collaboration via shared folders on a server and can be used with other editors like Vim or Neovim for those who prefer a terminal-based workflow.
+
+
 ## Folder Structures
 This project is organized into several folders and files to keep everything structured and easy to manage:
 ```sh
@@ -34,6 +41,28 @@ sudo apt-get install -y \
     texlive-fonts-recommended \
     texlive-latex-extra \
     texlive-font-utils
+```
+
+## Setup
+This section initializes the LaTeX paper template by cleaning up temporary files and resetting placeholder content.
+
+**Prerequisites**
+```sh
+# Install Visual Studio Code and the 'LaTeX Workshop' extension
+# Ensure all required packages are already installed
+```
+
+**download this directory**
+```sh 
+# Install via svn
+svn export https://github.com/kevin-wijaya/templates/trunk/latex
+```
+
+**Run the setup script**
+```sh
+# answer 'y' when prompted
+chmod +x ./clean.sh
+./clean.sh --setup
 ```
 
 ## Author

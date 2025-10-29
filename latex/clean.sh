@@ -19,18 +19,7 @@ if [[ "$1" == "--setup" ]]; then
     rm -f ./data/images/images.txt
     rm -f ./data/tables/tables.txt
     rm -f ./sections/sections.txt
-    rm -f images.svg
-
-    # Reset README
-    echo "LaTeX Paper README" > README.md
-
-    # Update LICENSE year
-    year=$(date +%Y)
-    sed -i '3d' LICENSE 2>/dev/null || true
-    sed -i "3i Copyright (c) $year John Doe" LICENSE
-
-    # Rename ignore to .gitignore
-    mv ignore .gitignore 2>/dev/null || true
+    rm -f images.svg LICENSE README.md
 
     echo "Setup Complete ~"
 fi

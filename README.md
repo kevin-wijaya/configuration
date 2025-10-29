@@ -1,4 +1,4 @@
-# Latex Project Template
+# **Latex with VS Code**
 <br>
 
 ![latex-in-linux](./images.svg)
@@ -52,10 +52,10 @@ This section initializes the LaTeX paper template by cleaning up temporary files
 # Ensure all required packages are already installed
 ```
 
-**download this directory**
+**clone this repository**
 ```sh 
 # Install via svn
-svn export https://github.com/kevin-wijaya/templates/trunk/latex
+git clone https://github.com/kevin-wijaya/latex-via-vscode <dirname>
 ```
 
 **Run the setup script**

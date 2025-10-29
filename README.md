@@ -54,7 +54,7 @@ This section initializes the LaTeX paper template by cleaning up temporary files
 
 **clone this repository**
 ```sh 
-# Install via svn
+# clone the repository and modify the dirname as you wish
 git clone https://github.com/kevin-wijaya/latex-via-vscode <dirname>
 ```
 

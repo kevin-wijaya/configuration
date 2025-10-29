@@ -21,5 +21,7 @@ if [[ "$1" == "--setup" ]]; then
     rm -f ./sections/sections.txt
     rm -f images.svg LICENSE README.md
 
+    mv ignore .gitignore
+
     echo "Setup Complete ~"
 fi
